@@ -213,4 +213,172 @@
         <item>Breathing Smoke</item>
     </string-array>
     <!-- LESSON 1 QUIZ DATA -->
+
+
+
+    <!-- LESSON 2 QUIZ DATA -->
+    <string-array name="lesson_two_questions">
+        <item>Stage where most fire is consumed.</item>
+        <item>Stage where there is an increasing level of smoke with decreased visibility.</item>
+        <item>Stage where fire is generally confined to the fuel that initially started.</item>
+        <item>Stage where all combustibles materials present are continuously burning.</item>
+        <item>Stage where oxygen level decreased and the fuel is already dried out.</item>
+    </string-array>
+
+    <string-array name="lesson_two_quiz_one_options">
+        <item>Decay</item>
+        <item>Ignition</item>
+        <item>Fully Developed</item>
+    </string-array>
+
+    <string-array name="lesson_two_quiz_two_options">
+        <item>Flash Over</item>
+        <item>Growth</item>
+        <item>Fully Developed</item>
+    </string-array>
+
+    <string-array name="lesson_two_quiz_three_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+
+    <string-array name="lesson_two_quiz_four_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+
+    <string-array name="lesson_two_quiz_five_options">
+        <item>Fully Developed</item>
+        <item>Ignition</item>
+        <item>Growth</item>
+    </string-array>
+    <!-- LESSON 2 QUIZ DATA -->
+
+
+
+    <!-- LESSON 3 QUIZ DATA -->
+    <string-array name="lesson_three_questions">
+        <item>Fires involving combustible cooking fluids such as oils and fats.</item>
+        <item>The most life-threatening method of Heat Transfer.</item>
+        <item>Energized electrical equipment, such as appliances, switches, panel boxes and power tools.</item>
+        <item>Ordinary combustibles or fibrous material, such as wood, paper, cloth, rubber and some plastics.</item>
+        <item>Method of Heat Transfer with heat rays causing nearby combustible objects to burst into flames.</item>
+    </string-array>
+
+    <string-array name="lesson_three_quiz_one_options">
+        <item>Class A</item>
+        <item>Class C</item>
+        <item>Class K</item>
+    </string-array>
+
+    <string-array name="lesson_three_quiz_two_options">
+        <item>Condution/Direct Contact</item>
+        <item>Convection</item>
+        <item>Radiation</item>
+    </string-array>
+
+    <string-array name="lesson_three_quiz_three_options">
+        <item>Class B</item>
+        <item>Class C</item>
+        <item>Class D</item>
+    </string-array>
+
+    <string-array name="lesson_three_quiz_four_options">
+        <item>Class A</item>
+        <item>CLass D</item>
+        <item>Class C</item>
+    </string-array>
+
+    <string-array name="lesson_three_quiz_five_options">
+        <item>Conduction/Direct Contact</item>
+        <item>Convection</item>
+        <item>Radiation</item>
+    </string-array>
+    <!-- LESSON 3 QUIZ DATA -->
+
+
+
+    <!-- LESSON 4 QUIZ DATA -->
+    <string-array name="lesson_four_questions">
+        <item>Ensure complete ________ of ALL fire brigade members during Fire Safety Seminars and Drills.</item>
+        <item>Familiarize and keep emergency _______ marked, lighted and free from any obstruction.</item>
+        <item>Identify and ________ fire hazards and unsafe work practices.</item>
+        <item>Maintain proper _______________.</item>
+        <item>Do not store large volume of combustible liquids without proper _______________ and fire protection.</item>
+    </string-array>
+
+    <string-array name="lesson_four_quiz_one_options">
+        <item>Performance</item>
+        <item>Attendance</item>
+        <item>Names</item>
+    </string-array>
+
+    <string-array name="lesson_four_quiz_two_options">
+        <item>Exits</item>
+        <item>Fire Extinguishers</item>
+        <item>Contacts</item>
+    </string-array>
+
+    <string-array name="lesson_four_quiz_three_options">
+        <item>Investigate</item>
+        <item>Witness</item>
+        <item>Report</item>
+    </string-array>
+
+    <string-array name="lesson_four_quiz_four_options">
+        <item>Grooming</item>
+        <item>Order</item>
+        <item>Housekeeping</item>
+    </string-array>
+
+    <string-array name="lesson_four_quiz_five_options">
+        <item>Approval</item>
+        <item>Clearance/Permit</item>
+        <item>Agreement</item>
+    </string-array>
+    <!-- LESSON 4 QUIZ DATA -->
+
+
+
+    <!-- LESSON 5 QUIZ DATA -->
+    <string-array name="lesson_five_questions">
+        <item>Monitor breathing as ________ of the airways can occur up to 24 hours after the initial burn.</item>
+        <item>If the casualty has to be transferred to hospital, make sure you ___________________.</item>
+        <item>The best way to be “fire safe” is to make sure that fires never happen</item>
+        <item>Which of these is not one of the symptoms to deliver the casualty to the Emergency Department?</item>
+        <item>If clothing is burning, which of the following should you do?</item>
+    </string-array>
+
+    <string-array name="lesson_five_quiz_one_options">
+        <item>Rupture</item>
+        <item>Blockage</item>
+        <item>Swelling</item>
+    </string-array>
+
+    <string-array name="lesson_five_quiz_two_options">
+        <item>Call for an Ambulance</item>
+        <item>Do CPR First</item>
+        <item>Check if victim has injuries</item>
+    </string-array>
+
+    <string-array name="lesson_five_quiz_three_options">
+        <item>Prevention</item>
+        <item>Detection</item>
+        <item>Evacuation</item>
+    </string-array>
+
+    <string-array name="lesson_five_quiz_four_options">
+        <item>Hard Coughing</item>
+        <item>Hoarse Voice</item>
+        <item>Casualty appears to be confused</item>
+    </string-array>
+
+    <string-array name="lesson_five_quiz_five_options">
+        <item>Use fire extinguisher</item>
+        <item>Throw water</item>
+        <item>Have the casualty roll on the ground</item>
+    </string-array>
+    <!-- LESSON 5 QUIZ DATA -->
 </resources>

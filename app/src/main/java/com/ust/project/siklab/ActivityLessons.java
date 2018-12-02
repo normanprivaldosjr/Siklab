@@ -32,10 +32,11 @@ public class ActivityLessons extends AppCompatActivity {
 
         databaseHelper = new DatabaseHelper(getApplicationContext());
 
-        String lessons[] = getResources().getStringArray(R.array.lesson_list);
+        String lessons[] = getApplicationContext().getResources().getStringArray(R.array.lesson_list);
         modelLessons = new ArrayList<>();
 
         for(int i = 0; i < lessons.length; i++) {
+            Toast.makeText(this, lessons[i], Toast.LENGTH_SHORT).show();
             modelLessons.add(new ModelLesson(lessons[i], (i + 1)));
         }
 
