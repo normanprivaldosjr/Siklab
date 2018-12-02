@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ust.project.siklab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ActivitySplash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityHome"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ActivityLessons"
+            android:label="LESSONS"
+            android:parentActivityName=".ActivityHome"/>
+
+        <!-- LESSON ACTIVITIES -->
+        <activity
+            android:name=".Lessons.ActivityLessonOne"
+            android:label="LESSON ONE"
+            android:parentActivityName=".ActivityLessons" />
+
+        <activity
+            android:name=".Lessons.ActivityLessonTwo"
+            android:label="LESSON TWO"
+            android:parentActivityName=".ActivityLessons" />
+
+        <activity
+            android:name=".Lessons.ActivityLessonThree"
+            android:label="LESSON THREE"
+            android:parentActivityName=".ActivityLessons" />
+
+        <activity
+            android:name=".Lessons.ActivityLessonFour"
+            android:label="LESSON FOUR"
+            android:parentActivityName=".ActivityLessons" />
+
+        <activity
+            android:name=".Lessons.ActivityLessonFive"
+            android:label="LESSON FIVE"
+            android:parentActivityName=".ActivityLessons" />
+        <!-- LESSON ACTIVITIES -->
+
+        <activity
+            android:name=".ActivityTakeQuiz"
+            android:label="TAKE QUIZ" />
+
+        <!-- QUIZ ACTIVITIES -->
+        <activity
+            android:name=".Quizzes.ActivityQuizOne"
+            android:label="QUIZ ONE" />
+        <!-- QUIZ ACTIVITIES -->
+
+        <!-- RESULT ACTIVITIES -->
+        <activity
+            android:name=".Results.ActivityResultOne"
+            android:label="RESULT ONE"/>
+        <!-- RESULT ACTIVITIES -->
+
+        <activity
+            android:name=".ActivityAnswers"
+            android:label="ANSWERS" />
+
+        <activity
+            android:name=".ActivityQuizzes"
+            android:label="QUIZZES"
+            android:parentActivityName=".ActivityHome"/>
+
+        <activity
+            android:name=".ActivityProgress"
+            android:label="PROGRESS"
+            android:parentActivityName=".ActivityHome"/>
+
+
+    </application>
+
+</manifest>
