@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiz_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUIZ 1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"/>
+
+            <TextView
+                android:id="@+id/quiz_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0. Your question goes here programmatically"
+                android:textSize="18sp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="22dp"/>
+
+            <RadioGroup
+                android:id="@+id/quiz_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/quiz_option_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"/>
+
+                <RadioButton
+                    android:id="@+id/quiz_option_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"/>
+
+                <RadioButton
+                    android:id="@+id/quiz_option_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"/>
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="22dp">
+
+                <Button
+                    android:id="@+id/option_btn_1"
+                    android:tag="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/btn_purpleroundedbutton"
+                    android:elevation="2dp"
+                    android:text="Option 1 Goes Here"
+                    android:textColor="@color/colorWhite"/>
+
+                <Button
+                    android:id="@+id/option_btn_2"
+                    android:tag="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/btn_purpleroundedbutton"
+                    android:elevation="2dp"
+                    android:text="Option 2 Goes Here"
+                    android:textColor="@color/colorWhite"/>
+
+                <Button
+                    android:id="@+id/option_btn_3"
+                    android:tag="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_purpleroundedbutton"
+                    android:elevation="2dp"
+                    android:text="Option 3 Goes Here"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="22dp">
+
+                <Button
+                    android:id="@+id/back_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_redroundedbutton"
+                    android:text="Back"
+                    android:textColor="@color/colorWhite"
+                    android:elevation="2dp"/>
+
+                <Button
+                    android:id="@+id/next_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_redroundedbutton"
+                    android:elevation="2dp"
+                    android:text="Next"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

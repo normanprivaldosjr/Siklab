@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lesson_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title Goes Here"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="22dp"/>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreefirst"/>
+
+            <TextView
+                android:text="@string/lesson_three_paragraph_one"
+                style="@style/paragraphStyle"/>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreesecond"/>
+
+            <TextView
+                android:text="@string/lesson_three_paragraph_two"
+                style="@style/paragraphStyle"/>
+            
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreethird"/>
+            
+            <TextView
+                android:text="@string/lesson_three_paragraph_three"
+                style="@style/paragraphStyle"/>
+            
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreefourth"/>
+            
+            <TextView
+                android:text="@string/lesson_three_paragraph_four"
+                style="@style/paragraphStyle"/>
+            
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreefifth"/>
+            
+            <TextView
+                android:text="@string/lesson_three_paragraph_five"
+                style="@style/paragraphStyle"/>
+            
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lessonthreesixth"/>
+            
+            <TextView
+                android:text="@string/lesson_three_paragraph_six"
+                style="@style/paragraphStyle"/>
+            
+            <Button
+                android:id="@+id/complete_btn"
+                android:text="Complete Lesson"
+                style="@style/buttonStyle" />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</RelativeLayout>
