@@ -14,7 +14,7 @@ import com.ust.project.siklab.Database.DatabaseHelper;
 import com.ust.project.siklab.R;
 import com.ust.project.siklab.Results.ActivityResultOne;
 
-public class ActivityQuizOne extends AppCompatActivity {
+public class ActivityQuizFour extends AppCompatActivity {
 
     // global variables
     int lessonNum;
@@ -22,23 +22,23 @@ public class ActivityQuizOne extends AppCompatActivity {
     int selectedAnswer;
 
     int optionIDs[] = {
-      R.id.quiz_option_1,
-      R.id.quiz_option_2,
-      R.id.quiz_option_3,
+            R.id.quiz_option_1,
+            R.id.quiz_option_2,
+            R.id.quiz_option_3,
     };
 
     int buttonIDs[] = {
-      R.id.option_btn_1,
-      R.id.option_btn_2,
-      R.id.option_btn_3,
+            R.id.option_btn_1,
+            R.id.option_btn_2,
+            R.id.option_btn_3,
     };
 
     int optionResources[] = {
-      R.array.lesson_one_quiz_one_options,
-      R.array.lesson_one_quiz_two_options,
-      R.array.lesson_one_quiz_three_options,
-      R.array.lesson_one_quiz_four_options,
-      R.array.lesson_one_quiz_five_options,
+            R.array.lesson_four_quiz_one_options,
+            R.array.lesson_four_quiz_two_options,
+            R.array.lesson_four_quiz_three_options,
+            R.array.lesson_four_quiz_four_options,
+            R.array.lesson_four_quiz_five_options,
     };
 
     Button nextBtn;

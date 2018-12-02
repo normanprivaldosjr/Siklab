@@ -65,6 +65,22 @@
         <activity
             android:name=".Quizzes.ActivityQuizOne"
             android:label="QUIZ ONE" />
+
+        <activity
+            android:name=".Quizzes.ActivityQuizTwo"
+            android:label="QUIZ TWO" />
+
+        <activity
+            android:name=".Quizzes.ActivityQuizThree"
+            android:label="QUIZ THREE" />
+
+        <activity
+            android:name=".Quizzes.ActivityQuizFour"
+            android:label="QUIZ FOUR" />
+
+        <activity
+            android:name=".Quizzes.ActivityQuizFive"
+            android:label="QUIZ FIVE" />
         <!-- QUIZ ACTIVITIES -->
 
         <!-- RESULT ACTIVITIES -->

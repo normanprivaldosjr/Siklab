@@ -44,6 +44,31 @@ public class ActivityTakeQuiz extends AppCompatActivity {
                         intent.putExtra("LESSON_NUMBER", lessonNum);
                         intent.putExtra("QUIZ_NUMBER", 1);
                         intent.putExtra("QUIZ_QUESTION_RESOURCE", R.array.lesson_one_questions);
+                        break;
+                    case 2 :
+                        intent = new Intent(getApplicationContext(), ActivityQuizOne.class);
+                        intent.putExtra("LESSON_NUMBER", lessonNum);
+                        intent.putExtra("QUIZ_NUMBER", 2);
+                        intent.putExtra("QUIZ_QUESTION_RESOURCE", R.array.lesson_two_questions);
+                        break;
+                    case 3 :
+                        intent = new Intent(getApplicationContext(), ActivityQuizOne.class);
+                        intent.putExtra("LESSON_NUMBER", lessonNum);
+                        intent.putExtra("QUIZ_NUMBER", 3);
+                        intent.putExtra("QUIZ_QUESTION_RESOURCE", R.array.lesson_three_questions);
+                        break;
+                    case 4 :
+                        intent = new Intent(getApplicationContext(), ActivityQuizOne.class);
+                        intent.putExtra("LESSON_NUMBER", lessonNum);
+                        intent.putExtra("QUIZ_NUMBER", 4);
+                        intent.putExtra("QUIZ_QUESTION_RESOURCE", R.array.lesson_four_questions);
+                        break;
+                    case 5 :
+                        intent = new Intent(getApplicationContext(), ActivityQuizOne.class);
+                        intent.putExtra("LESSON_NUMBER", lessonNum);
+                        intent.putExtra("QUIZ_NUMBER", 5);
+                        intent.putExtra("QUIZ_QUESTION_RESOURCE", R.array.lesson_five_questions);
+                        break;
                 }
                 startActivity(intent);
             }
